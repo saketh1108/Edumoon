@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+      body{
+            background-color: azure;
+           
+        }
+        header {
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            padding: 10px; 
+        }
+        header h1 {
+            margin: 0; 
+        }
+        ul {
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+        }
+        ul li {
+            margin-right: 10px; 
+        }
+        li a {
+            text-decoration: none;
+            display: block;
+            padding: 8px;
+            color:black;
+            background-color: azure;
+        }
+        
+        li a:hover {
+        background-color: #68f9e3;
+        }
+
+        .contact-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .contact-container h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #007bff;
+            font-size: 1.5em;
+        }
+        .contact-container p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .contact-container form {
+            margin-top: 20px;
+        }
+        .contact-container form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-container form input[type="text"],
+        .contact-container form input[type="email"],
+        .contact-container form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-family: Arial, sans-serif;
+            resize: none;
+        }
+        .contact-container form input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-container form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .contact-container form p {
+            margin-top: 10px;
+            font-style: italic;
+            color: #007bff;
+        }
+        .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #007bff; /* Change to the color you prefer */
+}
+
+.footer .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer .contact-info p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RAMAKRISHNA SAKETH DWADASI</h1>
+        <ul>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/saketh-dwadasi-ab8481259/">LinkedIn</a></li>
+        </ul>
+    </header>
+    <div class="contact-container">
+        <h2>Contact</h2>
+        <h4>Looking forward to hearing from you</h4>
+        <h4>Phone: +91 8297793055</h4>
+        <h4>Email: drksaketh@gmail.com</h4>
+        <form action="#" method="POST">
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="email"><b>Email</b></label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="subject"><b>Subject</b></label>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message"><b>Message</b></label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <br>
+        <p>Thanks for submitting!</p>
+    </div>
+    <footer>
+        <div class="footer">
+            <div>
+            <p style="margin-left: -10px; font-size: 20px; font-family: cambria; font-style: bold;">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Follow me on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  @created by sakethdwadasi</p>
+            
+        </div>
+            <div class="contact-info">
+                <p style="margin-left: -550px;">Ramakrishna Saketh Dwadasi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mailto:drksaketh@gmail.com" style="text-decoration: none; color: black;">drksaketh@gmail.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="https://www.linkedin.com/in/saketh-dwadasi-ab8481259/" style="text-decoration: none; color: black;"><img src="images/linkedin.png" height="20px" width="20px"></a> 
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
